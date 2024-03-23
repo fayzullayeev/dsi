@@ -1,0 +1,49 @@
+.future {
+  padding: 44px 0;
+  background: #f6f6f6;
+  &-row {
+    display: flex;
+    justify-content: space-between;
+  }
+  &-image {
+    width: 48%;
+    border-radius: 8px;
+  }
+  &-image img {
+  }
+  &-title {
+    width: 42%;
+  }
+  &-head-title {
+    padding-top: 20px;
+    padding-bottom: 20px;
+    font-weight: 500;
+    font-size: 32px;
+    line-height: 178%;
+    letter-spacing: 0.01em;
+    text-transform: capitalize;
+    color: #263238;
+  }
+  &-icon-text {
+    display: flex;
+    padding-top: 30px;
+  }
+  &-icon {
+    padding-right: 20px;
+  }
+  &-text {
+    font-weight: 500;
+    font-size: 24px;
+    line-height: 100%;
+    letter-spacing: 0em;
+    color: #263238;
+  }
+  &-content {
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 133%;
+    letter-spacing: 0.01em;
+    color: #263238;
+    padding-left: 52px;
+  }
+}

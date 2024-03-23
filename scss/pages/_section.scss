@@ -15,7 +15,15 @@
     }
   }
   &-pict {
+    width: 50%;
+    @media screen and (max-width: 760px) {
+      width: 100%;
+    }
   }
+  &-pict img {
+    width: 100%;
+  }
+
   &-text {
     width: 50%;
     padding-top: 57px;

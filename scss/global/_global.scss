@@ -1,21 +1,16 @@
-html
-body
-.wrapper{
-   height: 100%;
-   width: 100%;
-
+html body .wrapper {
+  height: 100%;
+  width: 100%;
 }
-.wrapper{
-   font-family: $main-font;
-   font-size: 14;
-   font-weight: normal;
-   font-style: normal;
-   line-height: 120%;
-
+.wrapper {
+  font-family: $main-font;
+  font-size: 14;
+  font-weight: normal;
+  font-style: normal;
+  line-height: 120%;
 }
-.container{
-   width: 100%;
-   max-width: 1173px;
-   margin: 0 auto;
-   padding: 20px 0;
+.container {
+  width: 100%;
+  max-width: 1173px;
+  margin: 0 auto;
 }
